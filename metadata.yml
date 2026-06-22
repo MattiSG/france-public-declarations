@@ -19,14 +19,14 @@ governance:
   Iroco:
     url: https://iroco.co
     logo: https://iroco.co/iroco.png
-    roles: [host, administrator, curator, maintainer]
+    roles: [host, sysadmin, curator, maintainer]
   Volunteer contributors:
     roles: [curator, maintainer]
 i18n:
   fr: 
     name: France Services Publics
     tagline: Services publics numériques français
-    description: | 
+    description: |
       La collection **France Services Publics** suit les modifications apportées aux conditions d'utilisation des services publics numériques français.
     governance:
       Volunteer contributors:
