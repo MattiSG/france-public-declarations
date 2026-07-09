@@ -3,6 +3,6 @@ all:
     ota.iroco.co:
       ansible_user: ota
       ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIDIESVC3v7f/AXyFPwOX5xOK8UvudcD0/dUAbcoY/pZW
-      ota_source_repository: https://github.com/iroco-co/france-public-declarations.git
+      ota_collection_repository: https://github.com/iroco-co/france-public-declarations.git
       ota_source_repository_branch: main
       ota_directory: france-public
