@@ -4,7 +4,7 @@ updates:
     directory: "/"
     schedule:
       # Available options: daily, weekly or monthly
-      interval: "daily"
+      interval: "weekly"
       # Has to be formatted as hh:mm
       time: "06:06"
       # List of time zones: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -12,8 +12,5 @@ updates:
     # Allow updates for Open Terms Archive engine
     allow:
       - dependency-name: "@opentermsarchive/engine"
-    # Open Terms Archive recommends to always add the collection maintainer team as a reviewer so they are notified of the update
-    reviewers:
-      - "OpenTermsArchive/demo"
     # Avoid having too many open pull requests
     open-pull-requests-limit: 1
